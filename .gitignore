@@ -1,0 +1,32 @@
+﻿# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.ipynb.old
+
+# Models / checkpoints / dữ liệu nặng
+models/
+save_models/
+data/
+datasets/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+*.zip
+*.7z
+*.rar
+*.csv
+*.parquet
+
+# Secrets
+.env
+*.key
+*.token
+
+# Hệ thống
+.DS_Store
+Thumbs.db
